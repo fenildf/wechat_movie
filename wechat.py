@@ -12,6 +12,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def wechat_check():
+    print(request)
     if request.method == 'GET':
         token = 'wan1987'
         query = request.args
@@ -32,7 +33,13 @@ def wechat_check():
     reply = "<xml><ToUserName><![CDATA[%s]]></ToUserName><FromUserName><![CDATA[%s]]></FromUserName><CreateTime>%s</Crea" \
             "teTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[%s]]></Content><FuncFlag>0</FuncFlag></xml>"
 
-    reply_context = query_mysql(recv_Content)
+
+    if recv_Content == '类型':
+        reply_context = '全部'
+        for movie_type in movie_types:
+            reply_context = reply_context+','+movie_type
+    else:
+        reply_context = query_mysql(recv_Content)
     if reply_context == None:
         reply_context = error_msg
     response = make_response(reply % (FromUserName, ToUserName, str(int(time.time())), reply_context))
@@ -41,4 +48,4 @@ def wechat_check():
 
 
 if __name__ == '__main__':
-    app.run(host='192.168.198.190', port=80)
+    app.run(host='0.0.0.0', port=80)

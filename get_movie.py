@@ -26,12 +26,10 @@ def query_mysql(movie_type):
             sql = 'SELECT movie_name,movie_score,people_num,movie_url FROM  movie_info WHERE movie_id >= ((SELECT ' \
                   'MAX(movie_id) FROM movie_info)-(SELECT MIN(movie_id) FROM movie_info)) * RAND() + (SELECT MIN(movie_id) ' \
                   'FROM movie_info)  LIMIT 3'
-            print(sql)
         else:
             sql = 'SELECT movie_name,movie_score,people_num,movie_url FROM  movie_info WHERE movie_id >= ((SELECT ' \
                   'MAX(movie_id) FROM movie_info)-(SELECT MIN(movie_id) FROM movie_info)) * RAND() + (SELECT MIN(movie_id) ' \
                   'FROM movie_info) AND movie_type LIKE "%%%s%%"  LIMIT 3' % movie_type
-            print(sql)
         cur.execute(sql)
         result = cur.fetchmany(3)
         conn.cursor().close()
@@ -42,7 +40,8 @@ def query_mysql(movie_type):
                  +result[1][3].encode('utf-8')
         movie3 = '电影名:'+result[2][0].encode('utf-8')+' 电影评分:'+result[2][1]+' 评分人数:'+result[2][2]+' 豆瓣电影链接:'\
                  +result[2][3].encode('utf-8')
-        content = '1.'+movie1+' 2.'+movie2+' 3.'+movie3
+        content = '1.'+movie1+'\n2.'+movie2+'\n3.'+movie3
         return content
+
 
 
