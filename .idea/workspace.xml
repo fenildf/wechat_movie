@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2676b25-eaf5-47a9-ae5f-7d03207cc290" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_movie.py" afterPath="$PROJECT_DIR$/get_movie.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wechat.py" afterPath="$PROJECT_DIR$/wechat.py" />
-    </list>
+    <list default="true" id="d2676b25-eaf5-47a9-ae5f-7d03207cc290" name="Default" comment="" />
     <ignored path="wechat.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
