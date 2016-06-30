@@ -14,7 +14,7 @@ def get_movie_info(movie_type):
         content = query_mysql(movie_type)
         return content
     else:
-        content = '请输入正确的类型'
+        content = '请输入："类型",获取电影类型'
         return content
 
 
@@ -43,5 +43,10 @@ def query_mysql(movie_type):
         content = '1.'+movie1+'\n2.'+movie2+'\n3.'+movie3
         return content
 
-
+#
+# def main():
+#     content = get_movie_info('123')
+#     print(content)
+# if __name__ == '__main__':
+#     main()
 

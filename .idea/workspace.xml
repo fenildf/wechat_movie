@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2676b25-eaf5-47a9-ae5f-7d03207cc290" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_movie.py" afterPath="$PROJECT_DIR$/get_movie.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globe_var.py" afterPath="$PROJECT_DIR$/globe_var.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wechat.py" afterPath="$PROJECT_DIR$/wechat.py" />
     </list>
     <ignored path="wechat.iws" />
@@ -21,7 +18,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/wechat$wechat.coverage" NAME="wechat Coverage Results" MODIFIED="1467250474872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/wechat$get_movie.coverage" NAME="get_movie Coverage Results" MODIFIED="1467251256058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wechat$get_movie.coverage" NAME="get_movie Coverage Results" MODIFIED="1467256910790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -32,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wechat.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wechat.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wechat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7689769">
-              <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+            <state vertical-scroll-proportion="-19.866667">
+              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
               <folding>
                 <element signature="e#24#71#0" expanded="true" />
               </folding>
@@ -44,22 +41,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_movie.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_movie.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_movie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.27083334">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
-                <marker date="1467251815079" expanded="true" signature="653:915" placeholder="SELECT movie..movie_info..." />
-                <marker date="1467251815079" expanded="true" signature="653:923" placeholder="SELECT movie..movie_info..." />
-                <marker date="1467251815079" expanded="false" signature="741:800" placeholder="SELECT MAX(m..movie_info..." />
-                <marker date="1467251815079" expanded="true" signature="803:839" placeholder="SELECT MIN(m..movie_info..." />
-                <marker date="1467251815079" expanded="false" signature="854:913" placeholder="SELECT MIN(m..movie_info..." />
-                <marker date="1467251815079" expanded="true" signature="958:1257" placeholder="SELECT movie..movie_info..." />
-                <marker date="1467251815079" expanded="false" signature="1046:1105" placeholder="SELECT MAX(m..movie_info..." />
-                <marker date="1467251815079" expanded="true" signature="1108:1144" placeholder="SELECT MIN(m..movie_info..." />
-                <marker date="1467251815079" expanded="true" signature="1159:1218" placeholder="SELECT MIN(m..movie_info..." />
+                <marker date="1467258180763" expanded="true" signature="660:922" placeholder="SELECT movie..movie_info..." />
+                <marker date="1467258180763" expanded="true" signature="660:930" placeholder="SELECT movie..movie_info..." />
+                <marker date="1467258180763" expanded="false" signature="748:807" placeholder="SELECT MAX(m..movie_info..." />
+                <marker date="1467258180763" expanded="true" signature="810:846" placeholder="SELECT MIN(m..movie_info..." />
+                <marker date="1467258180763" expanded="false" signature="861:920" placeholder="SELECT MIN(m..movie_info..." />
+                <marker date="1467258180763" expanded="true" signature="965:1264" placeholder="SELECT movie..movie_info..." />
+                <marker date="1467258180763" expanded="false" signature="1053:1112" placeholder="SELECT MAX(m..movie_info..." />
+                <marker date="1467258180763" expanded="true" signature="1115:1151" placeholder="SELECT MIN(m..movie_info..." />
+                <marker date="1467258180763" expanded="true" signature="1166:1225" placeholder="SELECT MIN(m..movie_info..." />
               </folding>
             </state>
           </provider>
@@ -91,9 +88,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/get_movie.py" />
-        <option value="$PROJECT_DIR$/wechat.py" />
         <option value="$PROJECT_DIR$/globe_var.py" />
+        <option value="$PROJECT_DIR$/wechat.py" />
+        <option value="$PROJECT_DIR$/get_movie.py" />
       </list>
     </option>
   </component>
@@ -461,15 +458,15 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
-            <marker date="1467251815079" expanded="true" signature="653:915" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467251815079" expanded="true" signature="653:923" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467251815079" expanded="false" signature="741:800" placeholder="SELECT MAX(m..movie_info..." />
-            <marker date="1467251815079" expanded="true" signature="803:839" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467251815079" expanded="false" signature="854:913" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467251815079" expanded="true" signature="958:1257" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467251815079" expanded="false" signature="1046:1105" placeholder="SELECT MAX(m..movie_info..." />
-            <marker date="1467251815079" expanded="true" signature="1108:1144" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467251815079" expanded="true" signature="1159:1218" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467258180763" expanded="true" signature="660:922" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467258180763" expanded="true" signature="660:930" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467258180763" expanded="false" signature="748:807" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467258180763" expanded="true" signature="810:846" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467258180763" expanded="false" signature="861:920" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467258180763" expanded="true" signature="965:1264" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467258180763" expanded="false" signature="1053:1112" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467258180763" expanded="true" signature="1115:1151" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467258180763" expanded="true" signature="1166:1225" placeholder="SELECT MIN(m..movie_info..." />
           </folding>
         </state>
       </provider>
@@ -490,31 +487,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_movie.py">
+    <entry file="file://$PROJECT_DIR$/wechat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state vertical-scroll-proportion="-19.866667">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
           <folding>
-            <element signature="e#24#38#0" expanded="true" />
-            <marker date="1467251815079" expanded="true" signature="653:915" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467251815079" expanded="true" signature="653:923" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467251815079" expanded="false" signature="741:800" placeholder="SELECT MAX(m..movie_info..." />
-            <marker date="1467251815079" expanded="true" signature="803:839" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467251815079" expanded="false" signature="854:913" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467251815079" expanded="true" signature="958:1257" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467251815079" expanded="false" signature="1046:1105" placeholder="SELECT MAX(m..movie_info..." />
-            <marker date="1467251815079" expanded="true" signature="1108:1144" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467251815079" expanded="true" signature="1159:1218" placeholder="SELECT MIN(m..movie_info..." />
+            <element signature="e#24#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wechat.py">
+    <entry file="file://$PROJECT_DIR$/get_movie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7689769">
-          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.27083334">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
-            <element signature="e#24#71#0" expanded="true" />
+            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1467258180763" expanded="true" signature="660:922" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467258180763" expanded="true" signature="660:930" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467258180763" expanded="false" signature="748:807" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467258180763" expanded="true" signature="810:846" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467258180763" expanded="false" signature="861:920" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467258180763" expanded="true" signature="965:1264" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467258180763" expanded="false" signature="1053:1112" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467258180763" expanded="true" signature="1115:1151" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467258180763" expanded="true" signature="1166:1225" placeholder="SELECT MIN(m..movie_info..." />
           </folding>
         </state>
       </provider>
