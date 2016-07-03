@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2676b25-eaf5-47a9-ae5f-7d03207cc290" name="Default" comment="" />
+    <list default="true" id="d2676b25-eaf5-47a9-ae5f-7d03207cc290" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serch_movie.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/wechat.iml" afterPath="$PROJECT_DIR$/.idea/wechat.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/globe_var.py" afterPath="$PROJECT_DIR$/globe_var.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wechat.py" afterPath="$PROJECT_DIR$/wechat.py" />
+    </list>
     <ignored path="wechat.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -14,8 +21,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/wechat$wechat.coverage" NAME="wechat Coverage Results" MODIFIED="1467250474872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/wechat$get_movie.coverage" NAME="get_movie Coverage Results" MODIFIED="1467256910790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wechat$wechat.coverage" NAME="wechat Coverage Results" MODIFIED="1467250474872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/wechat$serch_movie.coverage" NAME="serch_movie Coverage Results" MODIFIED="1467555099349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -26,13 +34,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wechat.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wechat.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wechat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7916667">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
               <folding>
                 <element signature="e#24#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serch_movie.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serch_movie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6796116">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding>
+                <element signature="e#23#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,19 +61,18 @@
       <file leaf-file-name="get_movie.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_movie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2">
+            <state vertical-scroll-proportion="0.0">
               <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
-                <marker date="1467258180763" expanded="true" signature="660:922" placeholder="SELECT movie..movie_info..." />
-                <marker date="1467258180763" expanded="true" signature="660:930" placeholder="SELECT movie..movie_info..." />
-                <marker date="1467258180763" expanded="false" signature="748:807" placeholder="SELECT MAX(m..movie_info..." />
-                <marker date="1467258180763" expanded="true" signature="810:846" placeholder="SELECT MIN(m..movie_info..." />
-                <marker date="1467258180763" expanded="false" signature="861:920" placeholder="SELECT MIN(m..movie_info..." />
-                <marker date="1467258180763" expanded="true" signature="965:1264" placeholder="SELECT movie..movie_info..." />
-                <marker date="1467258180763" expanded="false" signature="1053:1112" placeholder="SELECT MAX(m..movie_info..." />
-                <marker date="1467258180763" expanded="true" signature="1115:1151" placeholder="SELECT MIN(m..movie_info..." />
-                <marker date="1467258180763" expanded="true" signature="1166:1225" placeholder="SELECT MIN(m..movie_info..." />
+                <marker date="1467549533074" expanded="true" signature="660:930" placeholder="SELECT movie..movie_info..." />
+                <marker date="1467549533074" expanded="true" signature="748:807" placeholder="SELECT MAX(m..movie_info..." />
+                <marker date="1467549533074" expanded="true" signature="810:846" placeholder="SELECT MIN(m..movie_info..." />
+                <marker date="1467549533074" expanded="true" signature="861:920" placeholder="SELECT MIN(m..movie_info..." />
+                <marker date="1467549533074" expanded="true" signature="965:1264" placeholder="SELECT movie..movie_info..." />
+                <marker date="1467549533074" expanded="true" signature="1053:1112" placeholder="SELECT MAX(m..movie_info..." />
+                <marker date="1467549533074" expanded="true" signature="1115:1151" placeholder="SELECT MIN(m..movie_info..." />
+                <marker date="1467549533074" expanded="true" signature="1166:1225" placeholder="SELECT MIN(m..movie_info..." />
               </folding>
             </state>
           </provider>
@@ -63,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/globe_var.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -85,9 +104,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/get_movie.py" />
         <option value="$PROJECT_DIR$/globe_var.py" />
         <option value="$PROJECT_DIR$/wechat.py" />
-        <option value="$PROJECT_DIR$/get_movie.py" />
+        <option value="$PROJECT_DIR$/serch_movie.py" />
       </list>
     </option>
   </component>
@@ -99,8 +119,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -109,7 +129,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -127,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -148,14 +169,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../douban_movie_save_to_mysql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.get_movie">
+  <component name="RunManager" selected="Python.serch_movie">
     <configuration default="false" name="get_movie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,6 +192,24 @@
       <module name="wechat" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_movie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="serch_movie" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="wechat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/serch_movie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -385,17 +425,22 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.wechat" />
       <item index="1" class="java.lang.String" itemvalue="Python.get_movie" />
+      <item index="2" class="java.lang.String" itemvalue="Python.serch_movie" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.get_movie" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.serch_movie" />
+        <item index="1" class="java.lang.String" itemvalue="Python.get_movie" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d2676b25-eaf5-47a9-ae5f-7d03207cc290" name="Default" comment="" />
@@ -406,16 +451,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25414783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -429,6 +474,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -439,6 +492,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wechat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1467549533074" expanded="true" signature="660:930" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="748:807" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="810:846" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="861:920" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="965:1264" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="1053:1112" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="1115:1151" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="1166:1225" placeholder="SELECT MIN(m..movie_info..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globe_var.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wechat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -455,15 +544,14 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
-            <marker date="1467258180763" expanded="true" signature="660:922" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467258180763" expanded="true" signature="660:930" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467258180763" expanded="false" signature="748:807" placeholder="SELECT MAX(m..movie_info..." />
-            <marker date="1467258180763" expanded="true" signature="810:846" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467258180763" expanded="false" signature="861:920" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467258180763" expanded="true" signature="965:1264" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467258180763" expanded="false" signature="1053:1112" placeholder="SELECT MAX(m..movie_info..." />
-            <marker date="1467258180763" expanded="true" signature="1115:1151" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467258180763" expanded="true" signature="1166:1225" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="660:930" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="748:807" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="810:846" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="861:920" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="965:1264" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="1053:1112" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="1115:1151" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="1166:1225" placeholder="SELECT MIN(m..movie_info..." />
           </folding>
         </state>
       </provider>
@@ -479,36 +567,45 @@
     <entry file="file://$PROJECT_DIR$/globe_var.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_movie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2">
+        <state vertical-scroll-proportion="0.0">
           <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
-            <marker date="1467258180763" expanded="true" signature="660:922" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467258180763" expanded="true" signature="660:930" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467258180763" expanded="false" signature="748:807" placeholder="SELECT MAX(m..movie_info..." />
-            <marker date="1467258180763" expanded="true" signature="810:846" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467258180763" expanded="false" signature="861:920" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467258180763" expanded="true" signature="965:1264" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467258180763" expanded="false" signature="1053:1112" placeholder="SELECT MAX(m..movie_info..." />
-            <marker date="1467258180763" expanded="true" signature="1115:1151" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467258180763" expanded="true" signature="1166:1225" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="660:930" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="748:807" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="810:846" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="861:920" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="965:1264" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="1053:1112" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="1115:1151" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467549533074" expanded="true" signature="1166:1225" placeholder="SELECT MIN(m..movie_info..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wechat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7916667">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
           <folding>
             <element signature="e#24#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serch_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6796116">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="e#23#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
