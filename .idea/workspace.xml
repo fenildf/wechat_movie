@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2676b25-eaf5-47a9-ae5f-7d03207cc290" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serch_movie.py" afterPath="$PROJECT_DIR$/serch_movie.py" />
-    </list>
+    <list default="true" id="d2676b25-eaf5-47a9-ae5f-7d03207cc290" name="Default" comment="" />
     <ignored path="wechat.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -42,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serch_movie.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serch_movie.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serch_movie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36243823">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="e#64#79#0" expanded="true" />
@@ -54,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_movie.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_movie.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_movie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.82372326">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
                 <marker date="1467615656314" expanded="true" signature="676:946" placeholder="SELECT movie..movie_info..." />
@@ -456,7 +453,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284055" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -614,24 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_movie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-            <marker date="1467615656314" expanded="true" signature="676:946" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467615656314" expanded="true" signature="764:823" placeholder="SELECT MAX(m..movie_info..." />
-            <marker date="1467615656314" expanded="true" signature="826:862" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467615656314" expanded="true" signature="877:936" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467615656314" expanded="true" signature="981:1280" placeholder="SELECT movie..movie_info..." />
-            <marker date="1467615656314" expanded="true" signature="1069:1128" placeholder="SELECT MAX(m..movie_info..." />
-            <marker date="1467615656314" expanded="true" signature="1131:1167" placeholder="SELECT MIN(m..movie_info..." />
-            <marker date="1467615656314" expanded="true" signature="1182:1241" placeholder="SELECT MIN(m..movie_info..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wechat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -644,10 +623,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serch_movie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36243823">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="e#64#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82372326">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1467615656314" expanded="true" signature="676:946" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467615656314" expanded="true" signature="764:823" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467615656314" expanded="true" signature="826:862" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467615656314" expanded="true" signature="877:936" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467615656314" expanded="true" signature="981:1280" placeholder="SELECT movie..movie_info..." />
+            <marker date="1467615656314" expanded="true" signature="1069:1128" placeholder="SELECT MAX(m..movie_info..." />
+            <marker date="1467615656314" expanded="true" signature="1131:1167" placeholder="SELECT MIN(m..movie_info..." />
+            <marker date="1467615656314" expanded="true" signature="1182:1241" placeholder="SELECT MIN(m..movie_info..." />
           </folding>
         </state>
       </provider>
