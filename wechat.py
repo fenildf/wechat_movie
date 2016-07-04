@@ -35,15 +35,16 @@ def wechat_check():
             "teTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[%s]]></Content><FuncFlag>0</FuncFlag></xml>"
     # 如果请求的是'类型'，则返回类型内容（包括全部）
     if recv_Content == '类型':
+        reply_context = '类型：'
         for movie_type in movie_types:
-            reply_context = movie_type+' '
-    elif recv_Content in movie_types:
+            reply_context = reply_context+movie_type+','
+    elif recv_Content.encode('utf-8') in movie_types:
         reply_context = get_movie_info(recv_Content)
     else:
         reply_context = serch_movie(recv_Content)
-
-    if reply_context == None:
+    if reply_context is None:
         reply_context = error_msg
+
     response = make_response(reply % (FromUserName, ToUserName, str(int(time.time())), reply_context))
     response.content_type = 'application/xml'
     return response

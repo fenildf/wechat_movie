@@ -10,7 +10,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 def get_movie_info(movie_type):
-    if movie_type == '全部' or movie_type in movie_types:
+    if movie_type == '全部' or movie_type.encode("utf-8") in movie_types:
         content = query_mysql(movie_type)
         return content
     else:
